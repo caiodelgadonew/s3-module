@@ -5,5 +5,6 @@ resource "aws_s3_bucket" "default" {
   tags = {
     Name        = var.bucket_name
     Environment = var.env
+    Version     = "v1.1.0"
   }
 }
