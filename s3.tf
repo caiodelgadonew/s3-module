@@ -5,7 +5,7 @@ resource "aws_s3_bucket" "default" {
   tags = {
     Name        = var.bucket_name
     Environment = var.env
-    Version     = "v1.2.0"
-    Team        = "Time Devops"
+    Version     = "v1.3.0"
+    Team        = var.team
   }
 }

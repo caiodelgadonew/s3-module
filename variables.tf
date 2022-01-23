@@ -8,6 +8,11 @@ variable "env" {
   type        = string
 }
 
+variable "team" {
+  description = "Team responsible for the bucket."
+  type        = string
+}
+
 variable "aws_region" {
   description = "aws region"
   type        = string
